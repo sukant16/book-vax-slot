@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+tabulate = "*"
+svglib = "==1.0.1"
+reportlab = "*"
+pyinstaller = "*"
+pysimplegui = "*"
+fire = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

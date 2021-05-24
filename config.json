@@ -1,0 +1,29 @@
+{
+  "beneficiary_dtls": [
+    {
+      "bref_id": "22906468041810",
+      "name": "Sukant Arora",
+      "age": 29,
+      "status": "Not Vaccinated",
+      "dose": 1
+    },
+    {
+      "bref_id": "92841235057250",
+      "name": "Preeti Khanna",
+      "age": 30,
+      "status": "Not Vaccinated",
+      "dose": 1
+    }
+  ],
+  "location_dtls": [
+    {
+      "pincode": 124507,
+      "district_name": "Jhajjar"
+    }
+  ],
+  "minimum_slots": 15,
+  "preferred_slot": 2,
+  "auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiI1OWU2MjJiMC05MDBkLTRiNDEtOGM5ZC1mNzAwMmQ0YjJiZDMiLCJ1c2VyX2lkIjoiNTllNjIyYjAtOTAwZC00YjQxLThjOWQtZjcwMDJkNGIyYmQzIiwidXNlcl90eXBlIjoiQkVORUZJQ0lBUlkiLCJtb2JpbGVfbnVtYmVyIjo4Njk3OTc4NjIyLCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjkyODQxMjM1MDU3MjUwLCJzZWNyZXRfa2V5IjoiYjVjYWIxNjctNzk3Ny00ZGYxLTgwMjctYTYzYWExNDRmMDRlIiwidWEiOiJNb3ppbGxhLzUuMCAoWDExOyBMaW51eCB4ODZfNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85MS4wLjQ0NjkuMCBTYWZhcmkvNTM3LjM2IiwiZGF0ZV9tb2RpZmllZCI6IjIwMjEtMDUtMjRUMTU6MTE6NTQuNjc1WiIsImlhdCI6MTYyMTg2OTExNCwiZXhwIjoxNjIxODcwMDE0fQ.dY8hlcZbDyH1gGq8o4mZivzXqJvLCUEFItMh_ZAaAu4",
+  "phone": "8697978622",
+  "port": 8888
+}
