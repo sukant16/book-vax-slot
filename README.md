@@ -1,11 +1,12 @@
-# cowin-book
+# Book Vaccine slot without the hassle of entering OTP manually.
 
 Automated booking of COWIN vaccination slots for multiple beneficiaries. This work is
 based on work of 
 1. https://github.com/sudeepg95/cowin-public
 2. https://github.com/bhattbhavesh91/cowin-vaccination-slot-availability
+3. https://github.com/saubhik/cowin-book
 
-This is tested in MacOS. Can run on Linux with minimal changes.
+This is tested in Ubuntu. Should run on other Linux variants with minimal changes.
 
 ### Steps
 
@@ -18,7 +19,8 @@ This is tested in MacOS. Can run on Linux with minimal changes.
   conversation)
 - Setup `config.json` with the correct field values. You don't need to care about `auth`
   field. It gets updated automatically.
-- Make sure you have VLC installed. Life is better with it, anyways.
+- Make sure tkinter is installed for python3.9. For linux users, use this command: `sudo apt install python3.9-tk`
+- Make sure you have VLC installed.
 - Run the following in project root directory:
   ```bash
   python3.9 -m venv ./venv

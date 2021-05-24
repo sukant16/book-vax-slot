@@ -43,16 +43,8 @@ def main(filename):
             if isinstance(status, bool) and status == False:
                 print("Reauthorizing...")
                 reauthorize(filename=filename) 
-            # check if token is still valid
             else:
                 continue
-                # beneficiaries_list = requests.get(BENEFICIARIES_URL, headers=request_header)
-                # print("status_code:", beneficiaries_list.status_code)
-                # print("beneficiaries", beneficiaries_list)
-                # if beneficiaries_list.status_code != 200:
-                #     # if token invalid, regenerate OTP and new token
-                #     print("Reauthorizing...")
-                #     reauthorize(filename=filename)
 
     except Exception as e:
         print(str(e))
